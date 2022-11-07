@@ -9,3 +9,44 @@ body{
     background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
 }
+ /* HEADER */
+ #header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0; 
+}
+#logo-img{
+    background: url("../images/paper-lamper.png" ) no-repeat ;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+   
+}
+.navbar-brand{
+    padding-top: 25px;
+    
+}
+.navbar-brand a{
+    text-decoration: none;
+    
+}
+.navbar-brand h1{
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    
+}
+.navbar-brand p:hover{
+    text-decoration: none;
+    
+}
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 0.7em;
+    text-align: center;
+    
+}
